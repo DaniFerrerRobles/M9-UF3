@@ -23,18 +23,20 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="es">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gray-100`}
-      >
-        <div className="flex items-center justify-center min-h-screen">
-          <h1 className="text-blue-500">
-            HOLA MUNDO
-            <span className="text-green-500"> desde Next.js</span>
-          </h1>
-        </div>
+    <>
+      <html lang="en">
+      <head>
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="./output.css" rel="stylesheet" />
+      </head>
+      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+        <h1 className="text-1xl text-yellow  ">
+        Hello world!
+        </h1>
         {children}
       </body>
-    </html>
+      </html>
+    </>
   );
 }
