@@ -4,6 +4,7 @@ import "./globals.css";
 import Home from "./page";
 import Menu from "./vistas/menu";
 import SobreMi from "./components/sobreMi";
+import ProyectosInteresantes from "./components/proyectosInteresantes";
 
 export default function RootLayout({
 }: {
@@ -17,6 +18,8 @@ export default function RootLayout({
       <body>
         <Menu />
         <SobreMi />
+        <ProyectosInteresantes />
+        
       </body>
     </html>
   );
