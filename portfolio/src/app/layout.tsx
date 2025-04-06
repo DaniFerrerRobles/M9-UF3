@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Home from "./page";
+import Menu from "./vistas/menu";
+import SobreMi from "./components/sobreMi";
 
 export default function RootLayout({
 }: {
@@ -13,8 +15,8 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
       <body>
-        <h1 className="text-1xl text-orange-200">¡Hola, Tailwind!</h1>
-        <Home />
+        <Menu />
+        <SobreMi />
       </body>
     </html>
   );
