@@ -2,7 +2,7 @@ const ProyectosInteresantes = () => {
     return (
         <div className="mt-12 px-4 mx-auto">
             <p className="text-4xl text-center font-bold">
-                Aquí tienes algunos proyectos interesantes que he ido realizando durante el curso:
+                Aquí tienes algunos proyectos interesantes que he ido realizando durante el curso
             </p>
             <ul className="mt-6 list-disc list-inside mx-14 text-lg">
                 <li>
